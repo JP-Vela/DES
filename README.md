@@ -20,7 +20,7 @@ cd DES
 
 ### DES Encryption & Decryption
 ```python
-from des import DES
+from cui_des import DES
 
 key = b'secret_k'  # 8-byte key
 data = b'hello123'
@@ -36,7 +36,7 @@ print(f"Decrypted: {plaintext}")
 
 ### Triple DES (T_DES) Encryption & Decryption
 ```python
-from des import T_DES
+from cui_des import T_DES
 
 key = b'24-byte-super-secure-key'  # 24-byte key for Triple DES
 data = b'hello there'
